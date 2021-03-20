@@ -1,0 +1,1 @@
+<view><swiper><block wx:for="{{swiperImg}}" wx:for-item="item" wx:for-index="index" wx:key="index"><swiper-item><image data-index="{{index}}" src="{{item}}" mode="aspectFill" data-event-opts="{{[['tap',[['previewImage',['$event']]]]]}}" bindtap="__e"></image></swiper-item></block></swiper></view>

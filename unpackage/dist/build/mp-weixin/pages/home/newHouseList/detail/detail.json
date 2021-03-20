@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "君豪新城",
+  "usingComponents": {
+    "nearby-new-house": "/components/nearbyNewHouse/nearbyNewHouse",
+    "excellent-house": "/components/excellentHouse/excellentHouse",
+    "personal-housing": "/components/personalHousing/personalHousing",
+    "h-swiper": "/components/h-swiper/h-swiper"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "多级联动",
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker"
+  }
+}

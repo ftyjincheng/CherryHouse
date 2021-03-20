@@ -1,0 +1,1 @@
+<view class="container"><text class="text">(图文)</text><button class="btn" hover-class="none" data-event-opts="{{[['tap',[['detail',['$event']]]]]}}" bindtap="__e">下一步</button></view>

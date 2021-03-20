@@ -1,0 +1,55 @@
+<template>
+<view>
+<block v-for="(item, index) in personalHousing" :key="index">
+	<view :class="'item-lsti-conent ' + ( index==2 ? 'sw1':'')">
+		<view class="data02-tupian">
+			<view :class="'ysex01 ' + (item.zd=='1'?'':'hidden')"><text class>精品直卖</text></view>
+			<image class="data02-img" :src="item.img" alt></image>
+		</view>
+		<view class="data02-title">
+			<view class="s1">{{item.title}}</view>
+			<view class="s2">{{item.stmel}} {{item.stmels}}</view>
+
+			<view class="s3">
+				<span>{{item.specifications}}</span>
+				<div class="vLine"></div>
+				<span style="color:#384047">{{item.squaremeter}}㎡</span>
+				<div class="vLine"></div>
+				<span>{{item.homesuper}}</span>
+			</view>
+
+			<view class="s4">
+				<text style="color:red;font-weight:800;">{{item.number}}</text>
+				<text style="color:red;">万</text>
+				<image style="width:40rpx;height:40rpx" :src="item.avatar"></image>
+				<text>{{item.type}}</text>
+			</view>
+		</view>
+	</view>
+</block>
+</view>
+</template>
+
+<script>
+
+export default {
+  data() {
+    return {};
+  },
+
+  components: {},
+  props: {
+    personalHousing: {
+      type: Array,
+      default: []
+    }
+  },
+  options: {
+    styleIsolation: 'isolated'
+  },
+  methods: {}
+};
+</script>
+<style>
+@import "./personalHousing.css";
+</style>

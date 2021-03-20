@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "h-swiper": "/components/h-swiper/h-swiper",
+    "nearby-new-house": "/components/nearbyNewHouse/nearbyNewHouse"
+  }
+}

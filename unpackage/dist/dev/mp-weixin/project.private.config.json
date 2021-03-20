@@ -1,0 +1,66 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/publish/buy/buyOld",
+          "pathName": "pages/publish/buy/buyOld",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "推荐租房",
+          "pathName": "pages/publish/buy/rent",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "入伙",
+          "pathName": "pages/publish/join",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "代办",
+          "pathName": "pages/publish/transfer",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "推荐新房",
+          "pathName": "pages/publish/buy/buy",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/publish/publish",
+          "pathName": "pages/publish/publish",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/w-picker-demo/w-picker-demo",
+          "pathName": "pages/w-picker-demo/w-picker-demo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/w-picker-demo/linkage",
+          "pathName": "pages/w-picker-demo/linkage",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,94 @@
+
+Warning： 找不到package.json文件(不影响转换，无视这条)
+
+miniprogram to uni-app 转换日志
+
+---基本信息---
+时间: 2021-02-08 21:29:43
+语言: Javascript
+转换模式: Hbuilder X
+是否转换wxs文件: false
+
+---小程序基本信息---
+name: zyx
+version: 
+description: 
+appid: wx5ec69d34a15bfed6
+projectname: 
+compileType: miniprogram
+author: 
+
+---目录信息---
+sourceFolder: F:\Code\HongShanBeiKe\ZYX找房（原生微信小程序）\caojianyu-house
+targetFolder: F:\Code\HongShanBeiKe\ZYX找房（原生微信小程序）\caojianyu-house_uni
+outputFolder: F:\Code\HongShanBeiKe\ZYX找房（原生微信小程序）\caojianyu-house_uni
+miniprogramRoot: F:\Code\HongShanBeiKe\ZYX找房（原生微信小程序）\caojianyu-house
+
+---日志信息---
+Convert wxs file ..\caojianyu-house_uni\components\homeListItem\filterPrice.wxs success!
+Convert wxs file ..\caojianyu-house_uni\pages\home\homeGod\filterPrice.wxs success!
+Convert App.vue success!
+Convert ec-canvas\ec-canvas.vue success!
+Convert ec-canvas\echarts.js success!
+[Error] targetFilePath: F:\Code\HongShanBeiKe\ZYX找房（原生微信小程序）\caojianyu-house_uni\ec-canvas\echarts.js 内容为空！！！ r
+
+Convert component ec-canvas\wx-canvas.js success!
+Convert component service\置顶本地数据data.js success!
+Convert component utils\util.js success!
+Convert components\component\component.vue success!
+Convert components\h-swiper\h-swiper.vue success!
+Convert components\excellentHouse\excellentHouse.vue success!
+Convert components\filtration\filtration.vue success!
+Convert components\homeListItem\homeListItem.vue success!
+Convert components\nearbyNewHouse\nearbyNewHouse.vue success!
+Convert components\personalHousing\personalHousing.vue success!
+Convert components\swiper\swiper.vue success!
+Convert components\release\release.vue success!
+Convert pages\home\home.vue success!
+Convert pages\publish\publish.vue success!
+Convert pages\my\my.vue success!
+Convert pages\home\homeGod\homeGod.vue success!
+Convert pages\home\homeGods\homeGods.vue success!
+Convert pages\home\homeGodList\homeGodList.vue success!
+Convert pages\home\homeLeiBo\homeLeiBo.vue success!
+Convert pages\home\homeSellBuy\homeSellBuy.vue success!
+Convert pages\home\homeWYue\homeWYue.vue success!
+Convert pages\home\newHouseList\newHouseList.vue success!
+Convert pages\home\listSellBuy\listSellBuy.vue success!
+Convert pages\publish\buy\buy.vue success!
+Convert pages\publish\sell\sell.vue success!
+Convert pages\my\attention\attention.vue success!
+Convert pages\my\AboutUs\AboutUs.vue success!
+Convert pages\my\agreement\agreement.vue success!
+Convert pages\my\calculate\calculate.vue success!
+Convert pages\my\commonQuestion\commonQuestion.vue success!
+Convert pages\my\release\release.vue success!
+Convert pages\home\homeGod\homeGodDetail\homeGodDetail.vue success!
+Convert pages\home\homeLeiBo\personalHousing\personalHousing.vue success!
+Convert pages\home\newHouseList\detail\detail.vue success!
+Convert pages\home\newHouseList\to\to.vue success!
+Convert pages\publish\sell\detail\detail.vue success!
+Convert pages\home\homeLeiBo\personalHousing\complain\complain.vue success!
+Convert pages\home\homeLeiBo\personalHousing\dealDetail\dealDetail.vue success!
+Convert pages\home\homeLeiBo\personalHousing\other\other.vue success!
+Convert pages\home\newHouseList\detail\detailInfo\detailInfo.vue success!
+Convert pages\publish\sell\detail\entrust\entrust.vue success!
+Convert pages\home\homeGod\homeGodDetail\homeGodDetail\homeGodDetailOther\homeGodDetailOther.vue success!
+Convert pages\home\homeGod\homeGodDetail\homeGodDetail\homeGodDetailServe\homeGodDetailServe.vue success!
+Convert icon\icon.css.wxss success!
+
+转换完成: 
+耗时：2873ms
+当前转换模式：【Hbuilder X】，生成HbuilderX项目。
+优点：上手快，项目结构较简单；
+缺点：资源路径会因为表达式而无法全部被修复(“可能”需手动修复)
+
+注意：
+1.当看到"image漏网之鱼"，意味着您"可能"，“可能”，记住是“可能”，但不一定需要手动调整对应代码(以实际编译运行为准)，当image标签的src属性是含变量或表达式，工具还无法做到100%转换，需要手动修改为相对/static目录的路径
+
+
+日志说明：
+1. image漏网之鱼 --> 为HbuilderX模式时，需要将资源移动到static，并且修复相应文件路径，有可能src为网络文件，有可能为变量或表达式，可能会导致转换后文件找不到，因此提示一下
+修复提示：编译时，如有报错就将对应位置修复即可(虽然目前uni-app有类似的支持，似乎并不完善)
+
+2. 命名替换 --> 小程序里对于属性名基本没什么限制，如id能做属性名，data下面的变量和函数名还能重名，但这些在uni-app里是不支持的，因此做了相关替换，并记录日志，也许组件在外部调用时，函数名被改而因此报错时，请查看答疑文档

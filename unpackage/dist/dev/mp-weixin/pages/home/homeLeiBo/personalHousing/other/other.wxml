@@ -1,0 +1,1 @@
+<view class="container"><image src="{{img}}" mode="widthFix"></image><view class="buttom-item"><button class="bu2" style="width:40%;background:#0da7ce;" type="primary" data-event-opts="{{[['tap',[['back',['$event']]]]]}}" bindtap="__e">返回</button></view></view>

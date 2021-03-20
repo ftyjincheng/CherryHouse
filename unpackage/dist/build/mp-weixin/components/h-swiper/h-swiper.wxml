@@ -1,0 +1,1 @@
+<swiper class="swiper" circular="true" autoplay="true"><block><block wx:for="{{swiperImg}}" wx:for-item="item" wx:for-index="index" wx:key="index"><swiper-item class="siper-item"><image style="width:100vw;" src="{{item.img}}" mode="aspectFill"></image></swiper-item></block></block></swiper>

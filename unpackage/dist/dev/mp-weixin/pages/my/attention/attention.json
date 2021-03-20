@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "收藏与关注",
+  "usingComponents": {
+    "nearby-new-house": "/components/nearbyNewHouse/nearbyNewHouse",
+    "excellent-house": "/components/excellentHouse/excellentHouse",
+    "personal-housing": "/components/personalHousing/personalHousing"
+  }
+}

@@ -1,0 +1,243 @@
+{
+    "pages" : [
+        {
+            "path" : "pages/home/home",
+            "style" : {}
+        },
+        {
+            "path" : "pages/home/homeSellBuy/homeSellBuy",
+            "style" : {}
+        },
+        {
+            "path" : "pages/home/listSellBuy/listSellBuy",
+            "style" : {}
+        },
+        {
+            "path" : "pages/home/homeGods/homeGods",
+            "style" : {}
+        },
+        {
+            "path" : "pages/home/homeGod/homeGodDetail/homeGodDetail",
+            "style" : {}
+        },
+        {
+            "path" : "pages/home/homeGod/homeGodDetail/homeGodDetail/homeGodDetailOther/homeGodDetailOther",
+            "style" : {
+                "navigationBarTitleText" : "服务"
+            }
+        },
+        {
+            "path" : "pages/home/homeGod/homeGodDetail/homeGodDetail/homeGodDetailServe/homeGodDetailServe",
+            "style" : {
+                "navigationBarTitleText" : "服务"
+            }
+        },
+        {
+            "path" : "pages/home/homeLeiBo/homeLeiBo",
+            "style" : {}
+        },
+        {
+            "path" : "pages/home/homeLeiBo/personalHousing/personalHousing",
+            "style" : {
+                "navigationBarTitleText" : "房主直卖1"
+            }
+        },
+        {
+            "path" : "pages/home/homeLeiBo/personalHousing/other/other",
+            "style" : {}
+        },
+        {
+            "path" : "pages/home/homeLeiBo/personalHousing/complain/complain",
+            "style" : {
+                "navigationBarTitleText" : "房源投诉"
+            }
+        },
+        {
+            "path" : "pages/home/homeLeiBo/personalHousing/dealDetail/dealDetail",
+            "style" : {
+                "navigationBarTitleText" : "交易服务"
+            }
+        },
+        {
+            "path" : "pages/home/homeWYue/homeWYue",
+            "style" : {}
+        },
+        {
+            "path" : "pages/home/newHouseList/newHouseList",
+            "style" : {
+                "navigationBarTitleText" : "新房"
+            }
+        },
+        {
+            "path" : "pages/home/newHouseList/detail/detail",
+            "style" : {
+                "navigationBarTitleText" : "君豪新城"
+            }
+        },
+        {
+            "path" : "pages/home/newHouseList/detail/detailInfo/detailInfo",
+            "style" : {
+                "navigationBarTitleText" : "楼盘详细信息"
+            }
+        },
+        {
+            "path" : "pages/home/newHouseList/to/to",
+            "style" : {
+                "navigationBarTitleText" : "title"
+            }
+        },
+        {
+            "path" : "pages/publish/publish",
+            "style" : {
+                "navigationBarTitleText" : "发布需求"
+            }
+        },
+        {
+            "path" : "pages/publish/buy/buy",
+            "style" : {
+                "navigationBarTitleText" : "推荐新房"
+            }
+        },
+        {
+            "path" : "pages/publish/buy/buyOld",
+            "style" : {
+                "navigationBarTitleText" : "推荐二手房"
+            }
+        },
+        {
+            "path" : "pages/publish/join",
+            "style" : {
+                "navigationBarTitleText" : "我要入伙"
+            }
+        },
+        {
+            "path" : "pages/publish/certificate",
+            "style" : {
+                "navigationBarTitleText" : "代办房产证"
+            }
+        },
+        {
+            "path" : "pages/publish/transfer",
+            "style" : {
+                "navigationBarTitleText" : "代办过户"
+            }
+        },
+        {
+            "path" : "pages/publish/sell/sell",
+            "style" : {
+                "navigationBarTitleText" : "发布委托"
+            }
+        },
+        {
+            "path" : "pages/publish/sell/detail/detail",
+            "style" : {
+                "navigationBarTitleText" : "发布委托"
+            }
+        },
+        {
+            "path" : "pages/publish/sell/detail/entrust/entrust",
+            "style" : {
+                "navigationBarTitleText" : "发布委托"
+            }
+        },
+        {
+            "path" : "pages/my/my",
+            "style" : {
+                "navigationBarTitleText" : "我的"
+            }
+        },
+        {
+            "path" : "pages/my/AboutUs/AboutUs",
+            "style" : {
+                "navigationBarTitleText" : "关于我们"
+            }
+        },
+        {
+            "path" : "pages/my/agreement/agreement",
+            "style" : {
+                "navigationBarTitleText" : "用户协议"
+            }
+        },
+        {
+            "path" : "pages/my/calculate/calculate",
+            "style" : {
+                "navigationBarTitleText" : "房贷计算"
+            }
+        },
+        {
+            "path" : "pages/my/attention/attention",
+            "style" : {
+                "navigationBarTitleText" : "收藏与关注"
+            }
+        },
+        {
+            "path" : "pages/my/MyRecommend",
+            "style" : {
+                "navigationBarTitleText" : "我的推荐"
+            }
+        },
+        {
+            "path" : "pages/publish/buy/rent",
+            "style" : {
+				"navigationBarTitleText" : "推荐租房"
+			}
+        },
+        {
+            "path" : "pages/w-picker-demo/w-picker-demo",
+            "style" : {
+				"navigationBarTitleText" : "联动demo"
+			}
+        },
+        {
+            "path" : "pages/w-picker-demo/linkage",
+            "style" : {
+				"navigationBarTitleText" : "多级联动"
+			}
+        }
+    ],
+    "tabBar" : {
+        "color" : "#aaafb8",
+        "selectedColor" : "#27bbb2",
+        "backgroundColor" : "#ffffff",
+        "position" : "bottom",
+        "list" : [
+            {
+                "pagePath" : "pages/home/home",
+                "text" : "首页",
+                "iconPath" : "/static/assets/tabbar/home_new.png",
+                "selectedIconPath" : "/static/assets/tabbar/home_new_.png",
+                "selectedColor" : "#3fbaa6"
+            },
+            {
+                "pagePath" : "pages/publish/publish",
+                "text" : "推荐",
+                "iconPath" : "/static/assets/tabbar/mine_new.png",
+                "selectedIconPath" : "/static/assets/tabbar/mine_new_.png",
+                "selectedColor" : "#3fbaa6"
+            },
+            {
+                "pagePath" : "pages/publish/transfer",
+                "text" : "代办",
+                "iconPath" : "/static/assets/tabbar/mine_new.png",
+                "selectedIconPath" : "/static/assets/tabbar/mine_new_.png",
+                "selectedColor" : "#3fbaa6"
+            },
+            {
+                "pagePath" : "pages/my/my",
+                "text" : "我的",
+                "iconPath" : "/static/assets/tabbar/news_new.png",
+                "selectedIconPath" : "/static/assets/tabbar/news_new_.png",
+                "selectedColor" : "#3fbaa6"
+            }
+        ]
+    },
+    "style" : "v2",
+    "sitemapLocation" : "sitemap.json",
+    "globalStyle" : {
+        "backgroundTextStyle" : "light",
+        "navigationBarBackgroundColor" : "#fff",
+        "navigationBarTitleText" : "樱桃找房",
+        "navigationBarTextStyle" : "black"
+    },
+    "subPackages" : []
+}

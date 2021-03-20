@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "房贷计算",
+  "usingComponents": {
+    "ec-canvas": "/ec-canvas/ec-canvas"
+  }
+}

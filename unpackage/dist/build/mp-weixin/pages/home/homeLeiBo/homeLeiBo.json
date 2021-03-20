@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "home-list-item": "/components/homeListItem/homeListItem",
+    "home-god": "/pages/home/homeGod/homeGod"
+  }
+}
